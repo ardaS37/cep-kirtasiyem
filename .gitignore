@@ -1,0 +1,34 @@
+# Android and Gradle build output
+.gradle/
+**/build/
+*.apk
+*.aab
+*.dex
+*.class
+
+# Local Android SDK and signing configuration
+local.properties
+*.jks
+*.keystore
+*.pfx
+*.pem
+*.key
+
+# Local secrets and configuration
+.env
+.env.*
+secrets/
+credentials/
+
+# IDE and operating-system files
+*.iml
+.idea/
+.vscode/
+.vs/
+.DS_Store
+Thumbs.db
+captures/
+.externalNativeBuild/
+.cxx/
+*.log
+local.properties
